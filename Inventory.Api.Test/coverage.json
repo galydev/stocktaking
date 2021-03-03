@@ -1,0 +1,4077 @@
+{
+  "Inventory.Api.dll": {
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Api\\Program.cs": {
+      "Inventory.Api.Program": {
+        "System.Void Inventory.Api.Program::Main(System.String[])": {
+          "Lines": {
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Inventory.Api.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Api.Program::.ctor()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Api\\Startup.cs": {
+      "Inventory.Api.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Inventory.Api.Startup::get_Configuration()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Api.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Api.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Api.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Api\\Middlewares\\ErrorHandlerMiddleware.cs": {
+      "Inventory.Api.Middlewares.ErrorHandlerMiddleware": {
+        "System.Threading.Tasks.Task Inventory.Api.Middlewares.ErrorHandlerMiddleware::WriteResponseAsync(Microsoft.AspNetCore.Http.HttpContext,System.String,System.String,System.Int32)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Api.Middlewares.ErrorHandlerMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Inventory.Application.HttpErrors.IHttpErrorFactory,Microsoft.Extensions.Logging.ILogger`1<Inventory.Api.Middlewares.ErrorHandlerMiddleware>)": {
+          "Lines": {
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 55,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Api.Middlewares.ErrorHandlerMiddleware/<Invoke>d__4": {
+        "System.Void Inventory.Api.Middlewares.ErrorHandlerMiddleware/<Invoke>d__4::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Middlewares.ErrorHandlerMiddleware/<CreateHttpError>d__5": {
+        "System.Void Inventory.Api.Middlewares.ErrorHandlerMiddleware/<CreateHttpError>d__5::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Api\\Controllers\\MovementController.cs": {
+      "Inventory.Api.Controllers.MovementController": {
+        "System.Void Inventory.Api.Controllers.MovementController::.ctor(Inventory.Domain.Interfaces.IMovementService,AutoMapper.IMapper)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Api.Controllers.MovementController/<CreateMovement>d__3": {
+        "System.Void Inventory.Api.Controllers.MovementController/<CreateMovement>d__3::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.MovementController/<DeleteProductWarehouse>d__4": {
+        "System.Void Inventory.Api.Controllers.MovementController/<DeleteProductWarehouse>d__4::MoveNext()": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.MovementController/<MoveProductOtherWarehouse>d__5": {
+        "System.Void Inventory.Api.Controllers.MovementController/<MoveProductOtherWarehouse>d__5::MoveNext()": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.MovementController/<GetTotalShoppingProduct>d__6": {
+        "System.Void Inventory.Api.Controllers.MovementController/<GetTotalShoppingProduct>d__6::MoveNext()": {
+          "Lines": {
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Api\\Controllers\\ProductController.cs": {
+      "Inventory.Api.Controllers.ProductController": {
+        "System.Void Inventory.Api.Controllers.ProductController::.ctor(Inventory.Domain.Interfaces.IProductService,AutoMapper.IMapper)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<GetListProducts>d__3": {
+        "System.Void Inventory.Api.Controllers.ProductController/<GetListProducts>d__3::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<ProductById>d__4": {
+        "System.Void Inventory.Api.Controllers.ProductController/<ProductById>d__4::MoveNext()": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<GetProductByName>d__5": {
+        "System.Void Inventory.Api.Controllers.ProductController/<GetProductByName>d__5::MoveNext()": {
+          "Lines": {
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<Product>d__6": {
+        "System.Void Inventory.Api.Controllers.ProductController/<Product>d__6::MoveNext()": {
+          "Lines": {
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<Put>d__7": {
+        "System.Void Inventory.Api.Controllers.ProductController/<Put>d__7::MoveNext()": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<Delete>d__8": {
+        "System.Void Inventory.Api.Controllers.ProductController/<Delete>d__8::MoveNext()": {
+          "Lines": {
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.ProductController/<ExistProductById>d__9": {
+        "System.Void Inventory.Api.Controllers.ProductController/<ExistProductById>d__9::MoveNext()": {
+          "Lines": {
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Api\\Controllers\\WarehouseController.cs": {
+      "Inventory.Api.Controllers.WarehouseController": {
+        "System.Void Inventory.Api.Controllers.WarehouseController::.ctor(Inventory.Domain.Interfaces.IWarehouseService,AutoMapper.IMapper)": {
+          "Lines": {
+            "22": 5,
+            "23": 5,
+            "24": 5,
+            "25": 5,
+            "26": 5
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 25,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            }
+          ]
+        }
+      },
+      "Inventory.Api.Controllers.WarehouseController/<Get>d__3": {
+        "System.Void Inventory.Api.Controllers.WarehouseController/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Api.Controllers.WarehouseController/<ExistWarehouseById>d__4": {
+        "System.Void Inventory.Api.Controllers.WarehouseController/<ExistWarehouseById>d__4::MoveNext()": {
+          "Lines": {
+            "51": 4,
+            "52": 4,
+            "53": 2,
+            "54": 2,
+            "55": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Inventory.Application.dll": {
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\Wrappers\\ApiResponse.cs": {
+      "Inventory.Application.Wrappers.ApiResponse`1": {
+        "System.Boolean Inventory.Application.Wrappers.ApiResponse`1::get_Succeeded()": {
+          "Lines": {
+            "18": 3
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.Wrappers.ApiResponse`1::get_Message()": {
+          "Lines": {
+            "19": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> Inventory.Application.Wrappers.ApiResponse`1::get_Errors()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "T Inventory.Application.Wrappers.ApiResponse`1::get_Data()": {
+          "Lines": {
+            "21": 3
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Application.Wrappers.ApiResponse`1::.ctor(T,System.String)": {
+          "Lines": {
+            "7": 3,
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Application.Wrappers.ApiResponse`1::.ctor(System.String)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\Validators\\MovementValidator.cs": {
+      "Inventory.Application.Validators.MovementValidator": {
+        "System.Void Inventory.Application.Validators.MovementValidator::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\Validators\\ProductValidator.cs": {
+      "Inventory.Application.Validators.ProductValidator": {
+        "System.Void Inventory.Application.Validators.ProductValidator::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\Validators\\WarehouseValidator.cs": {
+      "Inventory.Application.Validators.WarehouseValidator": {
+        "System.Void Inventory.Application.Validators.WarehouseValidator::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\Mappings\\AutomapperProfile.cs": {
+      "Inventory.Application.Mappings.AutomapperProfile": {
+        "System.Void Inventory.Application.Mappings.AutomapperProfile::.ctor()": {
+          "Lines": {
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5,
+            "17": 5,
+            "18": 5,
+            "19": 5,
+            "20": 5,
+            "21": 5,
+            "22": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\HttpErrors\\DefaultHttpErrorFactory.cs": {
+      "Inventory.Application.HttpErrors.DefaultHttpErrorFactory": {
+        "Inventory.Application.HttpErrors.HttpError Inventory.Application.HttpErrors.DefaultHttpErrorFactory::BadRequest(System.Exception,System.String)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Application.HttpErrors.HttpError Inventory.Application.HttpErrors.DefaultHttpErrorFactory::InternalServerError(System.Exception,System.String)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Application.HttpErrors.HttpError Inventory.Application.HttpErrors.DefaultHttpErrorFactory::CreateFrom(System.Exception,System.String)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 22,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Application.HttpErrors.DefaultHttpErrorFactory::.ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\HttpErrors\\HttpError.cs": {
+      "Inventory.Application.HttpErrors.HttpError": {
+        "System.Int32 Inventory.Application.HttpErrors.HttpError::get_Status()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.HttpErrors.HttpError::get_Code()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String[] Inventory.Application.HttpErrors.HttpError::get_UserMessage()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.HttpErrors.HttpError::get_TraceId()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.HttpErrors.HttpError::get_DeveloperMessage()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String[] Inventory.Application.HttpErrors.HttpError::get_ValidationErrors()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Application.HttpErrors.HttpError Inventory.Application.HttpErrors.HttpError::CreateHttpValidationError(System.Net.HttpStatusCode,System.String[],System.String[])": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Application.HttpErrors.HttpError Inventory.Application.HttpErrors.HttpError::Create(Microsoft.AspNetCore.Hosting.IHostingEnvironment,System.Net.HttpStatusCode,System.String,System.String[],System.String,System.String)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 25,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Inventory.Application.HttpErrors.HttpError Inventory.Application.HttpErrors.HttpError::CreateDefaultHttpError(System.Net.HttpStatusCode,System.String[])": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\Filters\\ValidationFilter.cs": {
+      "Inventory.Application.Filters.ValidationFilter/<>c__DisplayClass0_0": {
+        "System.Collections.Generic.IEnumerable`1<Microsoft.AspNetCore.Mvc.ModelBinding.ModelError> Inventory.Application.Filters.ValidationFilter/<>c__DisplayClass0_0::<OnActionExecutionAsync>b__0(System.String)": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Application.Filters.ValidationFilter/<>c": {
+        "System.String Inventory.Application.Filters.ValidationFilter/<>c::<OnActionExecutionAsync>b__0_1(Microsoft.AspNetCore.Mvc.ModelBinding.ModelError)": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Application.Filters.ValidationFilter/<OnActionExecutionAsync>d__0": {
+        "System.Void Inventory.Application.Filters.ValidationFilter/<OnActionExecutionAsync>d__0::MoveNext()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 72,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 72,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\DTOs\\MovementDto.cs": {
+      "Inventory.Application.DTOs.MovementDto": {
+        "System.Guid Inventory.Application.DTOs.MovementDto::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Inventory.Application.DTOs.MovementDto::get_MovementDate()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Inventory.Application.DTOs.MovementDto::get_Type()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Application.DTOs.MovementDto::get_Quantity()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Application.DTOs.MovementDto::get_ProductId()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Application.DTOs.MovementDto::get_WarehouseId()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\DTOs\\MoveProductsDto.cs": {
+      "Inventory.Application.DTOs.MoveProductsDto": {
+        "System.Int32 Inventory.Application.DTOs.MoveProductsDto::get_Quantity()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Application.DTOs.MoveProductsDto::get_ProductId()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Application.DTOs.MoveProductsDto::get_CurrentWarehouseId()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Application.DTOs.MoveProductsDto::get_NewWarehouseId()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\DTOs\\ProductDto.cs": {
+      "Inventory.Application.DTOs.ProductDto": {
+        "System.String Inventory.Application.DTOs.ProductDto::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.DTOs.ProductDto::get_Description()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.DTOs.ProductDto::get_Sku()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Inventory.Application.DTOs.ProductDto::get_Price()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Application.DTOs.ProductDto::get_MinimunStock()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Application.DTOs.ProductDto::get_MaximumStock()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Inventory.Application.DTOs.ProductDto::get_Stock()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\DTOs\\ShoppingProductDto.cs": {
+      "Inventory.Application.DTOs.ShoppingProductDto": {
+        "System.Guid Inventory.Application.DTOs.ShoppingProductDto::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.DTOs.ShoppingProductDto::get_Name()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Application.DTOs.ShoppingProductDto::get_Stock()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Application.DTOs.ShoppingProductDto::get_ShoppingQuantity()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Inventory.Application.DTOs.ShoppingProductDto::get_TotalPriceShopping()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Application\\DTOs\\WarehouseDto.cs": {
+      "Inventory.Application.DTOs.WarehouseDto": {
+        "System.Int32 Inventory.Application.DTOs.WarehouseDto::get_Name()": {
+          "Lines": {
+            "12": 2
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.DTOs.WarehouseDto::get_Description()": {
+          "Lines": {
+            "16": 2
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Application.DTOs.WarehouseDto::get_Location()": {
+          "Lines": {
+            "20": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Application.DTOs.WarehouseDto::get_MaximumCapacity()": {
+          "Lines": {
+            "24": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Inventory.Domain.dll": {
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Services\\MovementService.cs": {
+      "Inventory.Domain.Services.MovementService": {
+        "System.Int32 Inventory.Domain.Services.MovementService::CurrentStockProductValue(System.Guid)": {
+          "Lines": {
+            "147": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Services.MovementService::TotalStock()": {
+          "Lines": {
+            "150": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Services.MovementService::CurrentStockWarehouseValue(System.Guid)": {
+          "Lines": {
+            "153": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Services.MovementService::FutureValue(System.Int32,Inventory.Domain.Entities.Movement)": {
+          "Lines": {
+            "156": 0
+          },
+          "Branches": [
+            {
+              "Line": 156,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 7,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Domain.Services.MovementService::.ctor(Inventory.Domain.Interfaces.IUnitOfWork,Inventory.Domain.Interfaces.IProductService,Inventory.Domain.Interfaces.IWarehouseService)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 55,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.MovementService/<InsertProductWareahouse>d__4": {
+        "System.Void Inventory.Domain.Services.MovementService/<InsertProductWareahouse>d__4::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 520,
+              "EndOffset": 522,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 520,
+              "EndOffset": 534,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 614,
+              "EndOffset": 619,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 906,
+              "EndOffset": 911,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 906,
+              "EndOffset": 1158,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 614,
+              "EndOffset": 1161,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.MovementService/<>c": {
+        "System.Int32 Inventory.Domain.Services.MovementService/<>c::<MoveProductOtherWarehouse>b__6_1(Inventory.Domain.Entities.Movement)": {
+          "Lines": {
+            "95": 0
+          },
+          "Branches": [
+            {
+              "Line": 95,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 6,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 Inventory.Domain.Services.MovementService/<>c::<GetTotalShoppingProduct>b__7_1(Inventory.Domain.Entities.Movement)": {
+          "Lines": {
+            "136": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Services.MovementService/<>c::<GetTotalShoppingProduct>b__7_2(Inventory.Domain.Entities.Movement)": {
+          "Lines": {
+            "137": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Domain.Services.MovementService/<TakeProductsOutWarehouse>d__5": {
+        "System.Void Inventory.Domain.Services.MovementService/<TakeProductsOutWarehouse>d__5::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 64,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 505,
+              "EndOffset": 507,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 505,
+              "EndOffset": 625,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.MovementService/<MoveProductOtherWarehouse>d__6": {
+        "System.Void Inventory.Domain.Services.MovementService/<MoveProductOtherWarehouse>d__6::MoveNext()": {
+          "Lines": {
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 650,
+              "EndOffset": 655,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 96,
+              "Offset": 732,
+              "EndOffset": 737,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 96,
+              "Offset": 732,
+              "EndOffset": 1217,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 650,
+              "EndOffset": 1218,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.MovementService/<GetTotalShoppingProduct>d__7": {
+        "System.Void Inventory.Domain.Services.MovementService/<GetTotalShoppingProduct>d__7::MoveNext()": {
+          "Lines": {
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "138": 0,
+            "139": 0,
+            "141": 0,
+            "142": 0
+          },
+          "Branches": [
+            {
+              "Line": 126,
+              "Offset": 252,
+              "EndOffset": 257,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 252,
+              "EndOffset": 596,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Services\\ProductService.cs": {
+      "Inventory.Domain.Services.ProductService": {
+        "System.Threading.Tasks.Task`1<Inventory.Domain.Entities.Product> Inventory.Domain.Services.ProductService::GetProductByNameAsync(System.String)": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Domain.Services.ProductService::.ctor(Inventory.Domain.Interfaces.IUnitOfWork)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<GetProductsAsync>d__2": {
+        "System.Void Inventory.Domain.Services.ProductService/<GetProductsAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<GetProductByIdAsync>d__3": {
+        "System.Void Inventory.Domain.Services.ProductService/<GetProductByIdAsync>d__3::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 169,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<ExistProductAsync>d__5": {
+        "System.Void Inventory.Domain.Services.ProductService/<ExistProductAsync>d__5::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 162,
+              "EndOffset": 176,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<InsertProductAsync>d__6": {
+        "System.Void Inventory.Domain.Services.ProductService/<InsertProductAsync>d__6::MoveNext()": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<UpdateProductAsync>d__7": {
+        "System.Void Inventory.Domain.Services.ProductService/<UpdateProductAsync>d__7::MoveNext()": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<DeleteAsync>d__8": {
+        "System.Void Inventory.Domain.Services.ProductService/<DeleteAsync>d__8::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Domain.Services.ProductService/<UpdateStockProduct>d__9": {
+        "System.Void Inventory.Domain.Services.ProductService/<UpdateStockProduct>d__9::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Services\\WarehouseService.cs": {
+      "Inventory.Domain.Services.WarehouseService": {
+        "System.Void Inventory.Domain.Services.WarehouseService::.ctor(Inventory.Domain.Interfaces.IUnitOfWork)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.WarehouseService/<GetWarehousesAsync>d__2": {
+        "System.Void Inventory.Domain.Services.WarehouseService/<GetWarehousesAsync>d__2::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 163,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Domain.Services.WarehouseService/<ExistWarehouseAsync>d__3": {
+        "System.Void Inventory.Domain.Services.WarehouseService/<ExistWarehouseAsync>d__3::MoveNext()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 162,
+              "EndOffset": 176,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Exceptions\\BusinessException.cs": {
+      "Inventory.Domain.Exceptions.BusinessException": {
+        "System.Void Inventory.Domain.Exceptions.BusinessException::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Domain.Exceptions.BusinessException::.ctor(System.String)": {
+          "Lines": {
+            "13": 2,
+            "14": 2,
+            "15": 2
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Domain.Exceptions.BusinessException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Domain.Exceptions.BusinessException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Entities\\Audit.cs": {
+      "Inventory.Domain.Entities.Audit": {
+        "System.Guid Inventory.Domain.Entities.Audit::get_AuditId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Inventory.Domain.Entities.Audit::get_AuditDate()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Audit::get_User()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Audit::get_TableName()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Audit::get_Action()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Audit::get_KeyValues()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Audit::get_OldValues()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Audit::get_NewValues()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Entities\\BaseEntity.cs": {
+      "Inventory.Domain.Entities.BaseEntity": {
+        "System.Guid Inventory.Domain.Entities.BaseEntity::get_Id()": {
+          "Lines": {
+            "7": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Entities\\Movement.cs": {
+      "Inventory.Domain.Entities.Movement": {
+        "System.DateTime Inventory.Domain.Entities.Movement::get_MovementDate()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Inventory.Domain.Entities.Movement::get_Type()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Entities.Movement::get_Quantity()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Domain.Entities.Movement::get_ProductId()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Domain.Entities.Movement::get_WarehouseId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Domain.Entities.Product Inventory.Domain.Entities.Movement::get_Product()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Domain.Entities.Warehouse Inventory.Domain.Entities.Movement::get_Warehouse()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Entities\\Product.cs": {
+      "Inventory.Domain.Entities.Product": {
+        "System.DateTime Inventory.Domain.Entities.Product::get_CreationDate()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Product::get_Name()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Product::get_Description()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Product::get_Sku()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Inventory.Domain.Entities.Product::get_Price()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Entities.Product::get_MinimunStock()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Entities.Product::get_MaximumStock()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Inventory.Domain.Entities.Product::get_Stock()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Inventory.Domain.Entities.Movement> Inventory.Domain.Entities.Product::get_Movements()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Domain.Entities.Product::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\Entities\\Warehouse.cs": {
+      "Inventory.Domain.Entities.Warehouse": {
+        "System.DateTime Inventory.Domain.Entities.Warehouse::get_CreationDate()": {
+          "Lines": {
+            "12": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Entities.Warehouse::get_Name()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Warehouse::get_Description()": {
+          "Lines": {
+            "14": 8
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.Entities.Warehouse::get_Location()": {
+          "Lines": {
+            "15": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.Entities.Warehouse::get_MaximumCapacity()": {
+          "Lines": {
+            "16": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Inventory.Domain.Entities.Movement> Inventory.Domain.Entities.Warehouse::get_Movements()": {
+          "Lines": {
+            "17": 6
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Domain.Entities.Warehouse::.ctor()": {
+          "Lines": {
+            "8": 6,
+            "9": 6,
+            "10": 6,
+            "11": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\CustomEntities\\MoveProducts.cs": {
+      "Inventory.Domain.CustomEntities.MoveProducts": {
+        "System.Int32 Inventory.Domain.CustomEntities.MoveProducts::get_Quantity()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Domain.CustomEntities.MoveProducts::get_ProductId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Domain.CustomEntities.MoveProducts::get_CurrentWarehouseId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Guid Inventory.Domain.CustomEntities.MoveProducts::get_NewWarehouseId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Domain\\CustomEntities\\ShoppingProduct.cs": {
+      "Inventory.Domain.CustomEntities.ShoppingProduct": {
+        "System.Guid Inventory.Domain.CustomEntities.ShoppingProduct::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Domain.CustomEntities.ShoppingProduct::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Inventory.Domain.CustomEntities.ShoppingProduct::get_Stock()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Inventory.Domain.CustomEntities.ShoppingProduct::get_ShoppingQuantity()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Inventory.Domain.CustomEntities.ShoppingProduct::get_TotalPriceShopping()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Inventory.Infrastructure.dll": {
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Repositories\\GenericRepository.cs": {
+      "Inventory.Infrastructure.Repositories.GenericRepository`1": {
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1::UpdateAsync(TEntity)": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Linq.IQueryable`1<TEntity> Inventory.Infrastructure.Repositories.GenericRepository`1::Queryable()": {
+          "Lines": {
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1::.ctor(Inventory.Infrastructure.Data.InventoryContext)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Infrastructure.Repositories.GenericRepository`1/<GetAllAsync>d__3": {
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1/<GetAllAsync>d__3::MoveNext()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Infrastructure.Repositories.GenericRepository`1/<GetByIdAsync>d__4": {
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1/<GetByIdAsync>d__4::MoveNext()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Infrastructure.Repositories.GenericRepository`1/<ExistsAsync>d__5": {
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1/<ExistsAsync>d__5::MoveNext()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Infrastructure.Repositories.GenericRepository`1/<InsertAsync>d__6": {
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1/<InsertAsync>d__6::MoveNext()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Infrastructure.Repositories.GenericRepository`1/<DeleteAsync>d__8": {
+        "System.Void Inventory.Infrastructure.Repositories.GenericRepository`1/<DeleteAsync>d__8::MoveNext()": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Repositories\\UnitOfWork.cs": {
+      "Inventory.Infrastructure.Repositories.UnitOfWork": {
+        "Inventory.Domain.Interfaces.IGenericRepository`1<Inventory.Domain.Entities.Product> Inventory.Infrastructure.Repositories.UnitOfWork::get_ProductRepository()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Inventory.Domain.Interfaces.IGenericRepository`1<Inventory.Domain.Entities.Warehouse> Inventory.Infrastructure.Repositories.UnitOfWork::get_WarehoueseRepository()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Inventory.Domain.Interfaces.IGenericRepository`1<Inventory.Domain.Entities.Movement> Inventory.Infrastructure.Repositories.UnitOfWork::get_MovementRepository()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Infrastructure.Repositories.UnitOfWork::Dispose()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Repositories.UnitOfWork::Dispose(System.Boolean)": {
+          "Lines": {
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 12,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Infrastructure.Repositories.UnitOfWork::Finalize()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Repositories.UnitOfWork::.ctor(Inventory.Infrastructure.Data.InventoryContext)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Inventory.Infrastructure.Repositories.UnitOfWork/<SaveChangesAsync>d__14": {
+        "System.Void Inventory.Infrastructure.Repositories.UnitOfWork/<SaveChangesAsync>d__14::MoveNext()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210206141158_Initial.cs": {
+      "Inventory.Infrastructure.Migrations.Initial": {
+        "System.Void Inventory.Infrastructure.Migrations.Initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Migrations.Initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210206141158_Initial.Designer.cs": {
+      "Inventory.Infrastructure.Migrations.Initial": {
+        "System.Void Inventory.Infrastructure.Migrations.Initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210206221003_TableMovement.cs": {
+      "Inventory.Infrastructure.Migrations.TableMovement": {
+        "System.Void Inventory.Infrastructure.Migrations.TableMovement::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Migrations.TableMovement::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210206221003_TableMovement.Designer.cs": {
+      "Inventory.Infrastructure.Migrations.TableMovement": {
+        "System.Void Inventory.Infrastructure.Migrations.TableMovement::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "153": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210206224030_AddForekeysProductWarehouse.cs": {
+      "Inventory.Infrastructure.Migrations.AddForekeysProductWarehouse": {
+        "System.Void Inventory.Infrastructure.Migrations.AddForekeysProductWarehouse::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Migrations.AddForekeysProductWarehouse::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210206224030_AddForekeysProductWarehouse.Designer.cs": {
+      "Inventory.Infrastructure.Migrations.AddForekeysProductWarehouse": {
+        "System.Void Inventory.Infrastructure.Migrations.AddForekeysProductWarehouse::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "172": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210207222349_AuditTable.cs": {
+      "Inventory.Infrastructure.Migrations.AuditTable": {
+        "System.Void Inventory.Infrastructure.Migrations.AuditTable::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Migrations.AuditTable::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\20210207222349_AuditTable.Designer.cs": {
+      "Inventory.Infrastructure.Migrations.AuditTable": {
+        "System.Void Inventory.Infrastructure.Migrations.AuditTable::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "223": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Migrations\\InventoryContextModelSnapshot.cs": {
+      "Inventory.Infrastructure.Migrations.InventoryContextModelSnapshot": {
+        "System.Void Inventory.Infrastructure.Migrations.InventoryContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "221": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Data\\InventoryContext.cs": {
+      "Inventory.Infrastructure.Data.InventoryContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Inventory.Domain.Entities.Product> Inventory.Infrastructure.Data.InventoryContext::get_Products()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Inventory.Domain.Entities.Warehouse> Inventory.Infrastructure.Data.InventoryContext::get_Warehouse()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Inventory.Domain.Entities.Movement> Inventory.Infrastructure.Data.InventoryContext::get_Movements()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Inventory.Domain.Entities.Audit> Inventory.Infrastructure.Data.InventoryContext::get_Audits()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inventory.Infrastructure.Data.InventoryContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Inventory.Infrastructure.Data.AuditEntry> Inventory.Infrastructure.Data.InventoryContext::OnBeforeSaveChanges()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "77": 0,
+            "80": 0,
+            "81": 0,
+            "84": 0,
+            "85": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "105": 0,
+            "106": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 518,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 69,
+              "EndOffset": 71,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 61,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 69,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 87,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 150,
+              "EndOffset": 158,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 491,
+              "EndOffset": 212,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 238,
+              "EndOffset": 240,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 238,
+              "EndOffset": 254,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 229,
+              "EndOffset": 257,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 262,
+              "EndOffset": 264,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 262,
+              "EndOffset": 284,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 314,
+              "EndOffset": 316,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 314,
+              "EndOffset": 343,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 359,
+              "EndOffset": 378,
+              "Path": 3,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 359,
+              "EndOffset": 401,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 359,
+              "EndOffset": 424,
+              "Path": 2,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 435,
+              "EndOffset": 437,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 359,
+              "EndOffset": 483,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 435,
+              "EndOffset": 483,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 491,
+              "EndOffset": 496,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 87,
+              "EndOffset": 512,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 518,
+              "EndOffset": 523,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 620,
+              "EndOffset": 583,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 620,
+              "EndOffset": 622,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task Inventory.Infrastructure.Data.InventoryContext::OnAfterSaveChanges(System.Collections.Generic.List`1<Inventory.Infrastructure.Data.AuditEntry>)": {
+          "Lines": {
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0
+          },
+          "Branches": [
+            {
+              "Line": 110,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 2,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 18,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 113,
+              "Offset": 218,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 173,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 118,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 118,
+              "Offset": 95,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 113,
+              "Offset": 218,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Infrastructure.Data.InventoryContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Inventory.Infrastructure.Data.InventoryContext>)": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Infrastructure.Data.InventoryContext/<SaveChangesAsync>d__18": {
+        "System.Void Inventory.Infrastructure.Data.InventoryContext/<SaveChangesAsync>d__18::MoveNext()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inventory.Infrastructure.Data.AuditEntry": {
+        "Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry Inventory.Infrastructure.Data.AuditEntry::get_Entry()": {
+          "Lines": {
+            "142": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Infrastructure.Data.AuditEntry::get_User()": {
+          "Lines": {
+            "143": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Infrastructure.Data.AuditEntry::get_TableName()": {
+          "Lines": {
+            "144": 0
+          },
+          "Branches": []
+        },
+        "System.String Inventory.Infrastructure.Data.AuditEntry::get_Action()": {
+          "Lines": {
+            "145": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.Dictionary`2<System.String,System.Object> Inventory.Infrastructure.Data.AuditEntry::get_KeyValues()": {
+          "Lines": {
+            "146": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.Dictionary`2<System.String,System.Object> Inventory.Infrastructure.Data.AuditEntry::get_OldValues()": {
+          "Lines": {
+            "147": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.Dictionary`2<System.String,System.Object> Inventory.Infrastructure.Data.AuditEntry::get_NewValues()": {
+          "Lines": {
+            "148": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Microsoft.EntityFrameworkCore.ChangeTracking.PropertyEntry> Inventory.Infrastructure.Data.AuditEntry::get_TemporaryProperties()": {
+          "Lines": {
+            "149": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Inventory.Infrastructure.Data.AuditEntry::get_HasTemporaryProperties()": {
+          "Lines": {
+            "151": 0
+          },
+          "Branches": []
+        },
+        "Inventory.Domain.Entities.Audit Inventory.Infrastructure.Data.AuditEntry::ToAudit()": {
+          "Lines": {
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0
+          },
+          "Branches": [
+            {
+              "Line": 155,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 87,
+              "EndOffset": 102,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 125,
+              "EndOffset": 127,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 125,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inventory.Infrastructure.Data.AuditEntry::.ctor(Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry)": {
+          "Lines": {
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Data\\Configurations\\AuditConfiguration.cs": {
+      "Inventory.Infrastructure.Data.Configurations.AuditConfiguration": {
+        "System.Void Inventory.Infrastructure.Data.Configurations.AuditConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Inventory.Domain.Entities.Audit>)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Data\\Configurations\\MovementConfiguration.cs": {
+      "Inventory.Infrastructure.Data.Configurations.MovementConfiguration": {
+        "System.Void Inventory.Infrastructure.Data.Configurations.MovementConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Inventory.Domain.Entities.Movement>)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs": {
+      "Inventory.Infrastructure.Data.Configurations.ProductConfiguration": {
+        "System.Void Inventory.Infrastructure.Data.Configurations.ProductConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Inventory.Domain.Entities.Product>)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\source\\repos\\Inventory\\Inventory.Infrastructure\\Data\\Configurations\\WarehouseConfiguration.cs": {
+      "Inventory.Infrastructure.Data.Configurations.WarehouseConfiguration": {
+        "System.Void Inventory.Infrastructure.Data.Configurations.WarehouseConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Inventory.Domain.Entities.Warehouse>)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
